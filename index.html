@@ -19,9 +19,20 @@
   </nav>
 
   <section id="projects">
-    <h2>Projects</h2>
-    <p>Details about your projects here.</p>
-  </section>
+  <h2>Projects</h2>
+  <div id="molecule-prediction">
+    <h3>Molecule Structure Prediction</h3>
+    <label for="mass">Mass:</label>
+    <input type="text" id="mass">
+    <label for="density">Density:</label>
+    <input type="text" id="density">
+    <label for="meltingPoint">Melting Point:</label>
+    <input type="text" id="meltingPoint">
+    <button onclick="predictMolecule()">Predict</button>
+    <p id="prediction-result"></p>
+  </div>
+</section>
+
 
   <section id="blog">
     <h2>Blog</h2>
